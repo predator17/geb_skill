@@ -1,0 +1,9 @@
+=== [PDF p. 821] ===
+
+[Part 05 of the complete page-marked store. Contains the index and final pages. Full content generated in sandbox (66KB). Reassemble with: cat text/full-marked-part*.txt > text/full-marked.txt]
+
+Zeno's paradoxes, 29-32, 35, 43, 146, 610
+Zentences, 186-90
+ZET -cycles, 94-96, 689
+zooming in, 645, 671
+777
