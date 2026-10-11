@@ -1,5 +1,6 @@
+import os
 import sys
-sys.path.append("../scripts")
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "scripts"))
 from tnt import is_well_formed, is_numeral, is_variable
 
 def test_basic():

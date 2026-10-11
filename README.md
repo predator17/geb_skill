@@ -11,7 +11,7 @@ This skill enables word-, sentence-, paragraph-, concept-, and author-intent-lev
 - `maps/` — folio-to-PDF mapping (`folio_to_pdf.json`) and unit map (`full_unit_map.json`)
 - `scripts/` — formal-system wrappers (`miu.py`, `pq.py`, `tnt.py`) and extraction utility (`extract_full.py`)
 - `tests/` — pytest-style tests for the scripts
-- `text/` — page-marked text store (generate locally; samples and README included)
+- `text/` — page-marked text store. `full-marked.txt` is generated locally via `scripts/extract_full.py` and gitignored (full book text stays out of the repo); small format samples live in `text/chunks/`
 - `visuals/` — on-demand Mermaid diagrams (empty by default)
 
 ## Generate the full page-marked text store

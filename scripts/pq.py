@@ -7,7 +7,14 @@ def is_well_formed(s: str) -> bool:
     left, rest = parts
     if "q" not in rest: return False
     y, z = rest.split("q", 1)
-    return all(c == "-" for c in left + y + z) and left and y and z
+    return bool(all(c == "-" for c in left + y + z) and left and y and z)
+
+def is_axiom(s: str) -> bool:
+    # Axiom schema: if x is a hyphen-string, then x p x q x x is an axiom
+    if not is_well_formed(s): return False
+    left, rest = s.split("p")
+    y, z = rest.split("q")
+    return left == y and len(z) == 2 * len(left)
 
 def is_theorem(s: str) -> bool:
     if not is_well_formed(s): return False

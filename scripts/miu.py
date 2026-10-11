@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 """MIU-system matching GEB Chapter I."""
+from __future__ import annotations
+
 from collections import deque
 
 def normalize(s: str) -> str:
