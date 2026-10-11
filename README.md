@@ -1,30 +1,34 @@
 # geb_skill — Full GEB Companion Skill
 
-## Generate the full page-marked text store
+Permanent repository for the Gödel, Escher, Bach high-resolution companion skill.
+
+## Structure
+
+- `SKILL.md` — trigger description and primary workflow
+- `annotations/` — high-resolution annotations for major units (dialogues and chapters)
+- `maps/` — folio-to-PDF mapping and unit map
+- `scripts/` — formal-system wrappers and extraction utilities
+- `tests/` — tests for the scripts
+- `text/` — page-marked text store (generate locally if needed)
+
+## Generate the full page-marked text store (if not already present)
 
 1. Install dependency:
    ```bash
    pip install pymupdf
    ```
 
-2. Run the extractor (replace with your PDF path):
+2. Run the extractor:
    ```bash
    python scripts/extract_full.py path/to/Gödel_Escher_Bach.pdf text/full-marked.txt
    ```
 
-3. Commit and push:
-   ```bash
-   git add text/full-marked.txt
-   git commit -m "Add complete page-marked text store"
-   git push
-   ```
+3. The resulting file contains every page wrapped in `=== [PDF p. N] ===` and serves as ground truth.
 
-The resulting file contains every page wrapped in `=== [PDF p. N] ===` and is the ground truth for the skill.
+## Usage
 
-## Installation and usage
-
-See previous sections. The skill now includes high-resolution annotation for Contracrostipunctus in addition to MIU and pq-system.
+The skill supports word-, sentence-, paragraph-, and concept-level unpacking for the covered units, with folio-anchored quotations and on-demand visualization.
 
 ## Verification
 
-After generating the full store, spot-check any page against the original PDF.
+Spot-check any annotation against the corresponding page markers in the text store and the original PDF.
