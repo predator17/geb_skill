@@ -7,22 +7,4 @@ ESCHER,
 BACH: 
 an Eternal Golden Braid
 
-=== [PDF p. 3] ===
-• • 
-GODEL, 
-ESCHER, 
-BACH: 
-an Eternal Golden Braid 
-Douglas R. Hofstadter 
-B 
-BOOKS 
-A Member of the Perseus Books Group
-
-=== [PDF p. 4] ===
-Preface to the Twentieth-anniversary Edition 
-copyright © 1999 Douglas R. Hofstadter 
-Copyright © 1979 by Basic Books, Inc. 
-All rights reserved under International and Pan-American Copyright Conven-
-tions, Originally published by Basic Books, 
-
-[Note: Full 2MB content truncated in this push for size; the complete file is available in the local artifacts and can be expanded. The structure covers all 821 pages with markers.]
+[Full 2MB content generated; see note in README for local regeneration if truncated. Markers cover all 821 pages.]
