@@ -1,20 +1,22 @@
-# Unit: Six-Part Ricercar (concluding Dialogue)
+# Unit: Dialogue — Six-Part Ricercar
 **PDF pages**: 763+
 **Printed folio**: ~720
 
 ## Key terms
-- **Six-Part Ricercar**: The final Dialogue, which is both a verbal game with the book’s ideas and a translation into words of Bach’s six-part ricercar from the Musical Offering.
-- **meta-author / Author**: The appearance of the Author as a character, creating further levels of self-reference.
+- **ricercar**: A type of contrapuntal composition, often improvisatory in origin; here the six-part piece from Bach’s Musical Offering.
+- **six-part**: Referring to the six independent voices in the final ricercar.
+- **Musical Offering**: Bach’s collection of pieces based on a theme given by Frederick the Great.
 
 ## Concept unpacking
-- The Dialogue is an exuberant, multi-layered game that simultaneously plays with the book’s themes and mirrors the structure of Bach’s most complex piece in the Musical Offering.
-- It unites form and content at the highest level, bringing Gödel, Escher, and Bach together one final time.
-- Characters discuss the book itself, the nature of the Dialogue, and the possibility of mechanical thought.
+- The final dialogue brings together Achilles, the Tortoise, the Crab, and others for an evening of music and discussion.
+- It is simultaneously a verbal translation of the most complex piece in the Musical Offering and a recapitulation of the book’s major themes.
+- Multiple levels of meaning are active at once.
 
 ## Author-stated intentions
-- To conclude the book with a Dialogue that is simultaneously a translation of Bach’s Six-Part Ricercar and a culminating play on all the preceding ideas.
-- To achieve more levels of meaning than any other Dialogue in the book.
+- This Dialogue is an exuberant game played with many of the ideas which have permeated the book.
+- It is simultaneously a “translation” into words of the most complex piece in the Musical Offering: the Six-Part Ricercar.
+- This duality imbues the Dialogue with more levels of meaning than any other in the book.
 
 ## Connections to thesis
-- Culminates the central thesis: the unity of formal systems, art, music, and mind through strange loops and self-reference.
-- Provides the final synthesis of the book’s themes.
+- Serves as the culminating Strange Loop of the book, tying Gödel, Escher, and Bach together.
+- Demonstrates the full interweaving of form and content developed throughout GEB.
