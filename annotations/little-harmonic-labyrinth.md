@@ -1,21 +1,21 @@
-# Unit: Little Harmonic Labyrinth (Dialogue + recursion chapter)
+# Unit: Dialogue — Little Harmonic Labyrinth
 **PDF pages**: 147+
 **Printed folio**: ~103
 
 ## Key terms
-- **recursion**: Nesting and variations on nesting (stories inside stories, calls that eventually return).
-- **push / pop / stack**: The mental or computational structure that keeps track of nested levels.
-- **Majotaur / djinns**: Playful devices for illustrating infinite or deferred recursion.
+- **recursion**: Nesting of structures or processes within themselves.
+- **push and pop**: Stack operations that enter and leave nested levels.
+- **modulation**: In music, a change of key; here used metaphorically for shifting levels.
 
 ## Concept unpacking
-- The Dialogue is a playful introduction to recursion through nested stories, each of which is interrupted by a deeper one and eventually resumed.
-- Recursion is shown both in the narrative structure and in Bach’s musical piece of the same name (rapid key changes that create a labyrinth).
-- The chapter that follows formalizes the idea: stacks, pushes, pops, and the similarity between the Dialogue’s structure and recursive procedures.
+- The dialogue is a playful, multi-level story that introduces recursion through nested adventures, stories within stories, and shifting realities.
+- It is based on Bach’s organ piece of the same name, which features frequent modulations.
+- The structure itself demonstrates recursive nesting.
 
 ## Author-stated intentions
-- To introduce the notion of recursion in a light, musical, and narrative form before treating it more rigorously.
-- To prepare the ground for later discussions of recursive structures in formal systems, music, and mind.
+- To provide a playful introduction to the notion of recursion.
+- To prepare the reader for the formal discussion of recursive structures in the following chapter.
 
 ## Connections to thesis
-- Recursion is one of the fundamental mechanisms that generate strange loops and hierarchical complexity.
-- Links music, narrative, formal systems, and computation.
+- Introduces one of the book’s central technical ideas—recursion—through narrative form.
+- Links music, story structure, and formal systems.
