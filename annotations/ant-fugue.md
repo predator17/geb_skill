@@ -1,21 +1,21 @@
-# Unit: Ant Fugue
+# Unit: Dialogue — Ant Fugue
 **PDF pages**: 354+
 **Printed folio**: ~311
 
 ## Key terms
-- **MU**: Zen answer that unasks the question (neither holism nor reductionism).
-- **holism**: The whole is greater than the sum of its parts.
-- **reductionism**: A whole can be understood completely from its parts.
-- **levels of description**: Different ways of seeing the same structure (letters composing letters).
+- **holism vs. reductionism**: The debate over whether a system is best understood as a whole or as the sum of its parts.
+- **Aunt Hillary**: The ant colony that functions as a single intelligent entity.
+- **signals and symbols**: The lower-level interactions of ants versus the higher-level meanings that emerge from them.
 
 ## Concept unpacking
-- The dialogue is structured as a fugue with multiple voices entering with the same theme.
-- Achilles points out that both HOLISM and REDUCTIONISM are visible depending on the level of description; MU transcends the false dichotomy.
-- Central to the book's treatment of levels, consciousness, and ant colonies as models of mind.
+- The dialogue is structured as a fugue, with each voice entering with a variation of the same theme.
+- It explores how an ant colony can exhibit intelligent behavior without any single ant understanding the whole.
+- Levels of description (ant, team, colony, symbol) are central.
 
 ## Author-stated intentions
-- To illustrate the holism/reductionism debate through a musical and visual form that itself has multiple levels.
-- Connects to later chapters on brains, symbols, and levels of description.
+- To create a dialogue that imitates the structure of a musical fugue.
+- To present the holism-reductionism debate through the metaphor of an ant colony.
 
-## Structural verification
-- The dialogue has the form of a fugue; voices enter successively with related statements.
+## Connections to thesis
+- Illustrates how higher-level meaning and intelligence can emerge from simple lower-level rules.
+- Prepares the ground for the discussion of brains and thoughts in the following chapter.
