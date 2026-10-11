@@ -1,4 +1,0 @@
-=== [PDF p. ~160] ===
-a shorthand beneath which there lies a wealth of subconscious, deliberately c
-
-[Part 02 of the complete page-marked store. Full ~500KB content generated in sandbox. Contains continuous page markers. Reassemble all parts with: cat text/full-marked-part*.txt > text/full-marked.txt]
