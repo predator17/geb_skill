@@ -1,0 +1,59 @@
+=== [PDF p. 1] ===
+
+=== [PDF p. 2] ===
+• • 
+GODEL, 
+ESCHER, 
+BACH: 
+an Eternal Golden Braid
+
+=== [PDF p. 3] ===
+• • 
+GODEL, 
+ESCHER, 
+BACH: 
+an Eternal Golden Braid 
+Douglas R. Hofstadter 
+B 
+BOOKS 
+A Member of the Perseus Books Group
+
+=== [PDF p. 4] ===
+Preface to the Twentieth-anniversary Edition 
+copyright © 1999 Douglas R. Hofstadter 
+Copyright © 1979 by Basic Books, Inc. 
+All rights reserved under International and Pan-American Copyright Conven-
+tions, Originally published by Basic Books, Inc., New York, in April 1979, 
+Library of Congress Cataloging-in-Publication Data 
+Hofstadter, Douglas R. 1945-
+Code!, Escher, Bach. 
+Bibliography: p. 746 
+Includes index. 
+l. Metamathematics. 
+2. Symmetry. 
+3. Artificial intelligence. 
+4. Bach, Johann Sebastian, 1685-1750. 
+5. Escher, Maurits Cornelis, 1898-1971. 
+6. Codel, Kurt. 
+I. Title. 
+[QA9.8.H63 1980] 
+510'.1 
+80-11354 
+ISBN 0-465-02656-7 
+Manufactured in the United States of America 
+EBA 
+05 
+l8 17 16 15 14 13
+
+=== [PDF p. 5] ===
+To M. and D.
+
+=== [PDF p. 6] ===
+Preface to GEB's 
+Twentieth-anniversary Edition 
+SO WHAT IS this book, GOdel, Escher, Bach: an Eternal Golden Braid -
+usually 
+known by its acronym, "GEB" -
+really 
+
+[Chunk 001 of ~42. Real content from the complete extraction. Subsequent chunks continue without gap. Reassemble with cat text/chunks/chunk_*.txt > text/full-marked.txt]
