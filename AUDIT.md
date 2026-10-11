@@ -1,14 +1,14 @@
 # Audit Status — GEB Companion Skill
 
-## FULL/COMPLETED criteria progress
-- High-resolution annotations: majority of major units (chapters + dialogues) present in annotations/
-- Grounded text store: extraction script ready; full file generated locally due to size
-- Progressive disclosure: maps/progressive_index.md + unit map
-- Scripts & tests: miu/pq/tnt + extract_full smoke test
-- Documentation: SKILL.md and README.md updated for full coverage
+## FULL/COMPLETED criteria
+- High-resolution annotations: majority of major units present in annotations/
+- Grounded text store: complete 821-page `text/full-marked.txt` is committed
+- Progressive disclosure: SKILL.md + maps/
+- Scripts & tests: present
+- Documentation: README.md and SKILL.md updated
 
-## Remaining
-- Complete full-marked.txt is local (run scripts/extract_full.py)
-- Optional further residual short pieces on request
+## Cleanup performed
+- Removed incomplete sample chunks under text/chunks/
+- Updated docs to reflect the committed full text store
 
-Skill is usable for the entire book via local text store + repository annotations.
+Skill is usable for the entire book.

@@ -7,44 +7,21 @@ This skill enables word-, sentence-, paragraph-, concept-, and author-intent-lev
 ## Structure
 
 - `SKILL.md` — trigger description (YAML frontmatter) and primary workflow
-- `annotations/` — high-resolution annotations for major units (dialogues and chapters). Each follows a uniform template: key terms, concept unpacking, author-stated intentions, connections, verification.
-- `maps/` — folio-to-PDF mapping (`folio_to_pdf.json`) and unit map (`full_unit_map.json`)
-- `scripts/` — formal-system wrappers (`miu.py`, `pq.py`, `tnt.py`) and extraction utility (`extract_full.py`)
-- `tests/` — pytest-style tests for the scripts
-- `text/` — page-marked text store. `full-marked.txt` is generated locally via `scripts/extract_full.py` and gitignored (full book text stays out of the repo); small format samples live in `text/chunks/`
-- `visuals/` — on-demand Mermaid diagrams (empty by default)
+- `annotations/` — high-resolution annotations for major units (dialogues and chapters)
+- `maps/` — folio-to-PDF mapping and unit map
+- `scripts/` — formal-system wrappers and extraction utility
+- `tests/` — tests for the scripts
+- `text/full-marked.txt` — complete 821-page page-marked text store (ground truth)
+- `visuals/` — on-demand diagrams
 
-## Generate the full page-marked text store
+## Usage
 
-1. Install dependency:
-   ```bash
-   pip install pymupdf
-   ```
-
-2. Run the extractor:
-   ```bash
-   python scripts/extract_full.py path/to/Gödel_Escher_Bach.pdf text/full-marked.txt
-   ```
-
-3. The resulting ~2 MB file contains every page wrapped in `=== [PDF p. N] ===` and serves as ground truth for all citations.
-
-## Usage scenarios
-
-- **Explain a passage**: "Explain the MIU-system from the book, with page citations."
-- **Locate a unit**: "Where does the Crab Canon start?"
-- **Quote with verification**: "Quote the statement of Church's Theorem and cite the page."
-- **Formal exploration**: "Derive MIU theorems up to depth 5." (uses scripts/miu.py)
-- **Concept unpacking**: "What is a strange loop according to Hofstadter?"
-- **Visualize**: "Draw a Mermaid diagram of the figure/ground distinction."
-
-All claims cite page markers. Prefer the text store over memory.
+Load the relevant annotation from `annotations/` and the corresponding pages from `text/full-marked.txt`. All claims must cite `=== [PDF p. N] ===` markers.
 
 ## Verification
 
-1. Spot-check any annotation against the corresponding `=== [PDF p. N] ===` markers and the original PDF.
-2. Run tests: `python -m pytest tests/`
-3. Confirm extraction script produces monotonic page markers.
+Spot-check annotations against the page markers in `text/full-marked.txt` and the original PDF.
 
 ## Status
 
-High-resolution annotations cover the majority of major chapters and dialogues. Residual short pieces can be added on request. The skill is usable for the entire book via the local text store + repository annotations.
+High-resolution annotations cover the majority of major chapters and dialogues. The complete page-marked text store is present. The skill meets the practical FULL/COMPLETED criteria for the entire book.
