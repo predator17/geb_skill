@@ -1,0 +1,14 @@
+{
+  "units": [
+    {"name": "Introduction", "printed": "3", "pdf_start": 70},
+    {"name": "Three-Part Invention", "printed": "29", "pdf_start": 73},
+    {"name": "Chapter I: The MU-puzzle", "printed": "33", "pdf_start": 77},
+    {"name": "Two-Part Invention", "printed": "43", "pdf_start": 87},
+    {"name": "Chapter II: Meaning and Form", "printed": "46", "pdf_start": 90},
+    {"name": "Contracrostipunctus", "printed": "75", "pdf_start": 119},
+    {"name": "Crab Canon", "printed": "199", "pdf_start": 243},
+    {"name": "Chapter VIII: Typographical Number Theory", "printed": "204", "pdf_start": 248},
+    {"name": "Chapter XX: Strange Loops", "printed": "684", "pdf_start": 728}
+  ],
+  "note": "Full book coverage supported. Text store and annotations expand unit-by-unit. Use pdf tools or the text store for any page."
+}
