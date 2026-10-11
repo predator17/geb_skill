@@ -1,19 +1,21 @@
-# Unit: Contracrostipunctus
-**PDF pages**: 119–125 (dialogue) + 126–130 (explication)
-**Printed folios**: ~75–81
+# Unit: Dialogue — Contracrostipunctus
+**PDF pages**: 119+
+**Printed folio**: ~75
 
 ## Key terms
-- **Contracrostipunctus**: Dialogue that encodes multiple levels of self-reference and a paraphrase of Gödel’s theorem.
-- **acrostic / contracrostic**: Initial letters (or reverse) form a hidden message.
-- **backfiring**: Implicit meaning that destroys the system that produces it (record player, goblet, Tortoise’s method).
+- **contracrostipunctus**: A play on “counterpoint,” “acrostic,” and “punctus contra punctum.”
+- **Gödel’s construction**: The method of building a self-referential statement inside a formal system.
+- **record player Omega**: The ultimate phonograph that can play any record, including those designed to destroy it.
 
 ## Concept unpacking
-- Explicit meaning: the story of record players and the goblet.
-- Implicit meaning: the story’s structure is isomorphic to the events it describes.
-- Deep mapping: phonograph ⇔ formal system, record ⇔ string, unplayable record ⇔ nontheorem, etc. (see table on PDF p. 129).
+- The dialogue presents a series of paraphrases of Gödel’s self-referential construction, using the metaphor of records and phonographs that destroy themselves when they try to play certain records.
+- It maps formal incompleteness onto physical and acoustic systems.
+- Both explicit and implicit self-reference appear throughout.
 
 ## Author-stated intentions
-The Dialogue was written to give the reader a taste of Gödel’s theorem before the formal presentation.
+- To present a central dialogue that contains a set of paraphrases of Gödel’s self-referential sentence.
+- To prepare the reader for the formal presentation of Gödel’s Theorem in the following chapter.
 
-## Structural verification
-The dialogue ends with the goblet shattering when the B-A-C-H theme is played — a concrete instance of the backfiring theme.
+## Connections to thesis
+- One of the most important dialogues for understanding the book’s central thesis of strange loops and incompleteness.
+- Links music, formal systems, and self-reference.
