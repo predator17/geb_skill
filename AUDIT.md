@@ -1,14 +1,18 @@
 # Audit Status — GEB Companion Skill
 
-## FULL/COMPLETED criteria
-- High-resolution annotations: majority of major units present in annotations/
-- Grounded text store: complete 821-page `text/full-marked.txt` is committed
-- Progressive disclosure: SKILL.md + maps/
-- Scripts & tests: present
-- Documentation: README.md and SKILL.md updated
+## Open-source readiness
 
-## Cleanup performed
-- Removed incomplete sample chunks under text/chunks/
-- Updated docs to reflect the committed full text store
+- Public documentation now separates original study annotations and utilities from the book’s copyrighted source text.
+- The complete book text is no longer distributed in the current branch.
+- `text/full-marked.txt` is generated locally by the user and excluded from Git.
+- Progressive disclosure remains available through `SKILL.md` and `maps/`.
+- Script tests are present under `tests/`.
+- Contribution guidance and an MIT license for code and original annotations are included.
 
-Skill is usable for the entire book.
+## Verification boundary
+
+- Page numbering must be checked against the reader’s edition of the PDF.
+- Earlier Git history has not been rewritten. If permanent removal of the source text is required, historical commits must be reviewed separately.
+- No claim of official endorsement by the book’s author or publisher is made.
+
+The current project is usable with a lawfully obtained PDF and locally generated page markers.
