@@ -1,1 +1,6 @@
 __pycache__/
+*.pyc
+.env
+
+# Locally generated from the reader's lawful PDF; not for public distribution
+text/full-marked.txt
