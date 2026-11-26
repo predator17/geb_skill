@@ -45,10 +45,11 @@ See [SKILL.md](SKILL.md) for the complete workflow and supported levels of expla
 
 ## Verification
 
-Run the unit tests:
+Install the development dependencies and run the unit tests:
 
 ```bash
-python -m unittest discover -s tests -p "test_*.py"
+python -m pip install -r requirements-dev.txt
+python -m pytest
 ```
 
 For content checks, compare annotations and page markers against your lawfully obtained PDF. Page numbering can vary by edition, so verify the edition before relying on a marker.
