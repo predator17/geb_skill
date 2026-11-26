@@ -1,14 +1,20 @@
-# Full Page-Marked Text Store
+# Local page-marked text generation
 
-The complete 821-page store is committed as `text/full-marked.txt` (~2 MB).
+The complete book text is not distributed in this repository. Generate `text/full-marked.txt` locally from a PDF you have obtained lawfully:
 
-Every page is wrapped in `=== [PDF p. N] ===` (N = 1..821). This is the ground truth for all annotations and quotations.
+```bash
+python -m pip install pymupdf
+python scripts/extract_full.py /path/to/your/GEB.pdf text/full-marked.txt
+```
+
+Each extracted page is wrapped in `=== [PDF p. N] ===` markers. Residual OCR noise is intentionally left visible for review.
 
 ## Verification
 
 ```bash
 grep -c '^=== \[PDF p\.' text/full-marked.txt
-# Should report 821
 ```
 
-Spot-check landmark pages (77, 119, 354, 763) against the original PDF.
+Check the page count and landmark pages against your own PDF. The existing annotations use an 821-page edition as their reference; other editions may require a different folio-to-PDF mapping.
+
+Do not commit the generated file or substantial excerpts from the book. `text/full-marked.txt` is ignored by Git.
